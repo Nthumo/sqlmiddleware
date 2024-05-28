@@ -23,7 +23,6 @@ def my_middleware (get_response):
 
         print("[SQL STATS]")
         print("=========="'\n')
-        
         print(f"{num_queries} Total Queries")
         print(f"{num_queries - len(check_duplicates)} Duplicates")
         print(f"{total_execution_time}", 'Execution Time')
